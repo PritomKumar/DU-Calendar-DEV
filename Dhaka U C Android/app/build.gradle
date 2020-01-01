@@ -4,11 +4,11 @@ android {
     compileSdkVersion 28
     buildToolsVersion "29.0.2"
     defaultConfig {
-        applicationId "com.example.dhakauniversitycalendarandroid"
+        applicationId "edu.dhaka_university_calendar.dhakauniversitycalendarandroid"
         minSdkVersion 21
         targetSdkVersion 28
         versionCode 1
-        versionName "1.0"
+        versionName "1.1.2"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     buildTypes {

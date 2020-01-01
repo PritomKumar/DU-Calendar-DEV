@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".faculty.FacultyMenu">
+    tools:context="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.faculty.FacultyMenu">
 
     <ScrollView
         android:layout_width="match_parent"

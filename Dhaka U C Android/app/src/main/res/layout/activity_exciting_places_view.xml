@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:layout_editor_absoluteY="81dp"
-    tools:context=".map.ExcitingPlacesViewActivity">
+    tools:context="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.map.ExcitingPlacesViewActivity">
 
     <ScrollView
         android:id="@+id/scrollView2"
@@ -103,7 +103,7 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
 
-    <com.example.dhakauniversitycalendarandroid.MovableFloatingActionButton
+    <edu.dhaka_university_calendar.dhakauniversitycalendarandroid.MovableFloatingActionButton
         android:id="@+id/buttonMap"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

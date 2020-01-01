@@ -42,6 +42,43 @@
           ]
         }
       }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1044358925928:android:ca564bcdb8536738c435dd",
+        "android_client_info": {
+          "package_name": "edu.dhaka_university_calendar.dhakauniversitycalendarandroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1044358925928-nhs9aea74gqmmhkt7fughhda7i4dcavs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.dhaka_university_calendar.dhakauniversitycalendarandroid",
+            "certificate_hash": "c790d22b08f7c22f4fcfe4a9586bc4e746cd8c68"
+          }
+        },
+        {
+          "client_id": "1044358925928-5b7enq34u5e5tj66vg6mtm41scf1fp21.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxesnZBJn7Kw0W8gDFXOIZ-WLGgK58lpA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1044358925928-5b7enq34u5e5tj66vg6mtm41scf1fp21.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
     }
   ],
   "configuration_version": "1"

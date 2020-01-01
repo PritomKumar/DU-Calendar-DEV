@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.dhakauniversitycalendarandroid">
+    package="edu.dhaka_university_calendar.dhakauniversitycalendarandroid">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
@@ -8,7 +8,7 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
-        android:name=".account.FirebaseAuthentication"
+        android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.account.FirebaseAuthentication"
         android:allowBackup="true"
         android:fullBackupContent="true"
         android:icon="@mipmap/ic_launcher"
@@ -19,282 +19,282 @@
         android:usesCleartextTraffic="true"
         tools:ignore="GoogleAppIndexingWarning"
         tools:targetApi="m">
-        <activity android:name=".DevelopresActivity"
-            android:parentActivityName=".CreditsMenu"
+        <activity android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.DevelopresActivity"
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.CreditsMenu"
             android:label="Developers"/>
         <activity
-            android:name=".CreditsMenu"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.CreditsMenu"
             android:label="Credits"
-            android:parentActivityName=".Home2Activity" />
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.Home2Activity" />
         <activity
-            android:name=".FacilitiesMenu"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.FacilitiesMenu"
             android:label="Facilities"
-            android:parentActivityName=".Home2Activity" />
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.Home2Activity" />
         <activity
-            android:name=".information.DuMedicalCenterViewActivity"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.information.DuMedicalCenterViewActivity"
             android:label="Medical Center"
-            android:parentActivityName=".information.InformationMenu" />
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.information.InformationMenu" />
         <activity
-            android:name=".more.ProctorialRulesActivity"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.more.ProctorialRulesActivity"
             android:label="Protorial Rules"
-            android:parentActivityName=".more.MoreMenuActivity" />
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.more.MoreMenuActivity" />
         <activity
-            android:name=".more.AffiliatedInstitutesActivity"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.more.AffiliatedInstitutesActivity"
             android:label="Affiliated Institutes"
-            android:parentActivityName=".more.MoreMenuActivity" />
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.more.MoreMenuActivity" />
         <activity
-            android:name=".more.DucsuActivity"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.more.DucsuActivity"
             android:label="Ducsu"
-            android:parentActivityName=".more.MoreMenuActivity" />
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.more.MoreMenuActivity" />
         <activity
-            android:name=".award.DeansAwardActivity"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.award.DeansAwardActivity"
             android:label="Deans Award"
-            android:parentActivityName=".award.AwardMenuActivity" />
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.award.AwardMenuActivity" />
         <activity
-            android:name=".award.DeansAwardWinnersActivity"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.award.DeansAwardWinnersActivity"
             android:label="Deans Award Winners"
-            android:parentActivityName=".award.AwardMenuActivity" />
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.award.AwardMenuActivity" />
         <activity
-            android:name=".award.AcheivementsActivity"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.award.AcheivementsActivity"
             android:label="Acheivements List "
-            android:parentActivityName=".award.AwardMenuActivity" />
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.award.AwardMenuActivity" />
         <activity
-            android:name=".award.AcheivementsViewActivity"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.award.AcheivementsViewActivity"
             android:label="Acheivements"
-            android:parentActivityName=".award.AcheivementsActivity" />
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.award.AcheivementsActivity" />
         <activity
-            android:name=".award.ScholarshipsActivity"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.award.ScholarshipsActivity"
             android:label="Scholarships"
-            android:parentActivityName=".award.AwardMenuActivity" />
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.award.AwardMenuActivity" />
         <activity
-            android:name=".information.DULibraryViewActivity"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.information.DULibraryViewActivity"
             android:label="Library"
-            android:parentActivityName=".information.InformationMenu" />
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.information.InformationMenu" />
         <activity
-            android:name=".map.ExcitingPlacesViewActivity"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.map.ExcitingPlacesViewActivity"
             android:label="Exciting Places"
-            android:parentActivityName=".map.ExcitingPlacesActivity" />
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.map.ExcitingPlacesActivity" />
         <activity
-            android:name=".more.MoreMenuActivity"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.more.MoreMenuActivity"
             android:label="More"
-            android:parentActivityName=".Home2Activity" />
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.Home2Activity" />
         <activity
-            android:name=".award.AwardMenuActivity"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.award.AwardMenuActivity"
             android:label="Award"
-            android:parentActivityName=".Home2Activity" />
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.Home2Activity" />
         <activity
-            android:name=".faculty.FacultyInfoActivity"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.faculty.FacultyInfoActivity"
             android:label="Faculty List"
-            android:parentActivityName=".faculty.FacultyMenu" />
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.faculty.FacultyMenu" />
         <activity
-            android:name=".information.DuHistoryViewActivity"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.information.DuHistoryViewActivity"
             android:label="History"
-            android:parentActivityName=".information.InformationMenu" />
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.information.InformationMenu" />
         <activity
-            android:name=".faculty.FacultyViewActivity"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.faculty.FacultyViewActivity"
             android:label="Faculty"
-            android:parentActivityName=".faculty.FacultyInfoActivity" />
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.faculty.FacultyInfoActivity" />
         <activity
-            android:name=".information.DuHistoryInfoActivity"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.information.DuHistoryInfoActivity"
             android:label="History" />
         <activity
-            android:name=".calendar.CalendarSportsClass"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.calendar.CalendarSportsClass"
             android:label="Sports Calendar"
-            android:parentActivityName=".calendar.CalendarType" />
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.calendar.CalendarType" />
         <activity
-            android:name=".calendar.CalendarEventListActivity"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.calendar.CalendarEventListActivity"
             android:label="Event List"
-            android:parentActivityName=".calendar.CalendarClass" />
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.calendar.CalendarClass" />
         <activity
-            android:name=".calendar.CalendarSportsEventListActivity"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.calendar.CalendarSportsEventListActivity"
             android:label="Sport event List"
-            android:parentActivityName=".calendar.CalendarClass" />
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.calendar.CalendarClass" />
         <activity
-            android:name=".calendar.CalendarSpecificEventListActivity"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.calendar.CalendarSpecificEventListActivity"
             android:label="Event List"
-            android:parentActivityName=".calendar.CalendarClass" />
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.calendar.CalendarClass" />
         <activity
-            android:name=".calendar.CalendarCounselingClass"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.calendar.CalendarCounselingClass"
             android:label="Club Calendar"
-            android:parentActivityName=".calendar.CalendarType" />
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.calendar.CalendarType" />
         <activity
-            android:name=".faculty.FacultyFineArtsInfoActivity"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.faculty.FacultyFineArtsInfoActivity"
             android:label="Faculty Of Fine Arts"
-            android:parentActivityName=".faculty.FacultyInfoActivity" />
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.faculty.FacultyInfoActivity" />
         <activity
-            android:name=".faculty.FacultyBiologicalScienceInfoActivity"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.faculty.FacultyBiologicalScienceInfoActivity"
             android:label="Faculty Of Biological Sciences"
-            android:parentActivityName=".faculty.FacultyInfoActivity" />
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.faculty.FacultyInfoActivity" />
         <activity
-            android:name=".faculty.FacultyEarthInfoActivity"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.faculty.FacultyEarthInfoActivity"
             android:label="Faculty Of Earth"
-            android:parentActivityName=".faculty.FacultyInfoActivity" />
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.faculty.FacultyInfoActivity" />
         <activity
-            android:name=".faculty.FacultyEngineeringInfoActivity"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.faculty.FacultyEngineeringInfoActivity"
             android:label="Faculty Of Engineering"
-            android:parentActivityName=".faculty.FacultyInfoActivity" />
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.faculty.FacultyInfoActivity" />
         <activity
-            android:name=".faculty.FacultyPharmacyInfoActivity"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.faculty.FacultyPharmacyInfoActivity"
             android:label="Faculty Of Pharmacy"
-            android:parentActivityName=".faculty.FacultyInfoActivity" />
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.faculty.FacultyInfoActivity" />
         <activity
-            android:name=".faculty.FacultySocialScienceInfoActivity"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.faculty.FacultySocialScienceInfoActivity"
             android:label="Faculty Of Social Sciences"
-            android:parentActivityName=".faculty.FacultyInfoActivity" />
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.faculty.FacultyInfoActivity" />
         <activity
-            android:name=".faculty.FacultyLawInfoActivity"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.faculty.FacultyLawInfoActivity"
             android:label="Faculty Of Law"
-            android:parentActivityName=".faculty.FacultyInfoActivity" />
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.faculty.FacultyInfoActivity" />
         <activity
-            android:name=".account.Profile_Activity"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.account.Profile_Activity"
             android:label="Profile"
-            android:parentActivityName=".Home2Activity" />
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.Home2Activity" />
         <activity
-            android:name=".Home2Activity"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.Home2Activity"
             android:label="Home" />
         <activity
-            android:name=".map.MapMenu"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.map.MapMenu"
             android:label="Map"
-            android:parentActivityName=".Home2Activity" />
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.Home2Activity" />
         <activity
-            android:name=".faculty.FacultyMenu"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.faculty.FacultyMenu"
             android:label="Faculty/Institutes"
-            android:parentActivityName=".information.InformationMenu" />
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.information.InformationMenu" />
         <activity
-            android:name=".map.ExcitingPlacesActivity"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.map.ExcitingPlacesActivity"
             android:label="Exciting Places List"
-            android:parentActivityName=".map.MapMenu" />
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.map.MapMenu" />
         <activity
-            android:name=".information.GradingSystemActivity"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.information.GradingSystemActivity"
             android:label="Grading System"
-            android:parentActivityName=".information.InformationMenu" />
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.information.InformationMenu" />
         <activity
-            android:name=".information.HeadOfDUInfoActivity"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.information.HeadOfDUInfoActivity"
             android:label="Top Administration"
-            android:parentActivityName=".committee.CommitteeMenu" />
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.committee.CommitteeMenu" />
         <activity
-            android:name=".information.InstituesInfoActivity"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.information.InstituesInfoActivity"
             android:label="Institutes List"
-            android:parentActivityName=".faculty.FacultyMenu" />
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.faculty.FacultyMenu" />
         <activity
-            android:name=".information.InstitutesViewActivity"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.information.InstitutesViewActivity"
             android:label="Institutes"
-            android:parentActivityName=".information.InstituesInfoActivity" />
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.information.InstituesInfoActivity" />
         <activity
-            android:name=".transport.TransportChytali"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.transport.TransportChytali"
             android:label="Chytali"
-            android:parentActivityName=".transport.TransportMenu" />
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.transport.TransportMenu" />
         <activity
-            android:name=".transport.TransportTorongo"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.transport.TransportTorongo"
             android:label="Torongo"
-            android:parentActivityName=".transport.TransportMenu" />
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.transport.TransportMenu" />
         <activity
-            android:name=".transport.TransportSrabon"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.transport.TransportSrabon"
             android:label="Srabon"
-            android:parentActivityName=".transport.TransportMenu" />
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.transport.TransportMenu" />
         <activity
-            android:name=".transport.TransportBoshonto"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.transport.TransportBoshonto"
             android:label="Boshonto"
-            android:parentActivityName=".transport.TransportMenu" />
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.transport.TransportMenu" />
         <activity
-            android:name=".transport.TransportAnando"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.transport.TransportAnando"
             android:label="Anando"
-            android:parentActivityName=".transport.TransportMenu" />
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.transport.TransportMenu" />
         <activity
-            android:name=".transport.TransportUllash"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.transport.TransportUllash"
             android:label="Ullash"
-            android:parentActivityName=".transport.TransportMenu" />
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.transport.TransportMenu" />
         <activity
-            android:name=".transport.TransportHemonto"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.transport.TransportHemonto"
             android:label="Hemonto"
-            android:parentActivityName=".transport.TransportMenu" />
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.transport.TransportMenu" />
         <activity
-            android:name=".transport.TransportBaishakhi"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.transport.TransportBaishakhi"
             android:label="Baishakhi"
-            android:parentActivityName=".transport.TransportMenu" />
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.transport.TransportMenu" />
         <activity
-            android:name=".transport.TransportKhonika"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.transport.TransportKhonika"
             android:label="Khonika"
-            android:parentActivityName=".transport.TransportMenu" />
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.transport.TransportMenu" />
         <activity
-            android:name=".transport.TransportFalguni"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.transport.TransportFalguni"
             android:label="Falguni"
-            android:parentActivityName=".transport.TransportMenu" />
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.transport.TransportMenu" />
         <activity
-            android:name=".transport.TransportIshakha"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.transport.TransportIshakha"
             android:label="Ishakha"
-            android:parentActivityName=".transport.TransportMenu" />
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.transport.TransportMenu" />
         <activity
-            android:name=".transport.TransportKinchit"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.transport.TransportKinchit"
             android:label="kinchit"
-            android:parentActivityName=".transport.TransportMenu" />
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.transport.TransportMenu" />
         <activity
-            android:name=".transport.TransportMoitree"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.transport.TransportMoitree"
             android:label="Moitree"
-            android:parentActivityName=".transport.TransportMenu" />
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.transport.TransportMenu" />
         <activity
-            android:name=".transport.TransportChittagongRoad"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.transport.TransportChittagongRoad"
             android:label="Chittagong Road"
-            android:parentActivityName=".transport.TransportMenu" />
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.transport.TransportMenu" />
         <activity
-            android:name=".committee.DeanActivity"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.committee.DeanActivity"
             android:label="Dean of Faculties"
-            android:parentActivityName=".committee.CommitteeMenu" />
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.committee.CommitteeMenu" />
         <activity
-            android:name=".committee.CommitteeMenu"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.committee.CommitteeMenu"
             android:label="Authority"
-            android:parentActivityName=".Home2Activity" />
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.Home2Activity" />
         <activity
-            android:name=".committee.EditorialCommitteActivity"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.committee.EditorialCommitteActivity"
             android:label="Editorial Committee"
-            android:parentActivityName=".committee.CommitteeMenu" />
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.committee.CommitteeMenu" />
         <activity
-            android:name=".committee.BoardOfProctorActivity"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.committee.BoardOfProctorActivity"
             android:label="Board Of Proctor"
-            android:parentActivityName=".committee.CommitteeMenu" />
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.committee.CommitteeMenu" />
         <activity
-            android:name=".committee.DirectorOfInstitutesActivity"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.committee.DirectorOfInstitutesActivity"
             android:label="Director Of Institutes"
-            android:parentActivityName=".committee.CommitteeMenu" />
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.committee.CommitteeMenu" />
         <activity
-            android:name=".committee.ChairmanOfDepartmentsActivity"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.committee.ChairmanOfDepartmentsActivity"
             android:label="Chairman Of Departments"
-            android:parentActivityName=".committee.CommitteeMenu" />
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.committee.CommitteeMenu" />
         <activity
-            android:name=".committee.ProvostOfHallsActivity"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.committee.ProvostOfHallsActivity"
             android:label="Provost Of Halls"
-            android:parentActivityName=".committee.CommitteeMenu" />
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.committee.CommitteeMenu" />
         <activity
-            android:name=".committee.HeadOfOfficesActivity"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.committee.HeadOfOfficesActivity"
             android:label="Head Of Offices"
-            android:parentActivityName=".committee.CommitteeMenu" />
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.committee.CommitteeMenu" />
         <activity
-            android:name=".committee.DirectorOfBureausActivity"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.committee.DirectorOfBureausActivity"
             android:label="Director Of Bureaus"
-            android:parentActivityName=".committee.CommitteeMenu" />
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.committee.CommitteeMenu" />
         <activity
-            android:name=".faculty.FacultyActivity"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.faculty.FacultyActivity"
             android:label="Faculty" />
         <activity
-            android:name=".transport.TransportMenu"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.transport.TransportMenu"
             android:label="Transport"
-            android:parentActivityName=".FacilitiesMenu" />
-        <activity android:name=".map.MapActivityInfrastructure" />
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.FacilitiesMenu" />
+        <activity android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.map.MapActivityInfrastructure" />
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyC3veEqv2KbB90jkky3WXo4-Z87JRt9yic" />
 
         <activity
-            android:name=".calendar.CalendarType"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.calendar.CalendarType"
             android:label="Calendar"
-            android:parentActivityName=".Home2Activity" />
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.Home2Activity" />
         <activity
-            android:name=".information.InformationMenu"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.information.InformationMenu"
             android:label="DU Information"
-            android:parentActivityName=".Home2Activity" />
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.Home2Activity" />
         <activity
-            android:name=".MainActivity"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.MainActivity"
             android:noHistory="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -303,73 +303,73 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".information.DepartmentViewActivity"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.information.DepartmentViewActivity"
             android:label="Department"
-            android:parentActivityName=".faculty.FacultyScienceInfoActivity" />
-        <activity android:name=".retreiveInfoActivity" />
-        <activity android:name=".InfoOptions" />
-        <activity android:name=".InfoActivity" />
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.faculty.FacultyScienceInfoActivity" />
+        <activity android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.retreiveInfoActivity" />
+        <activity android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.InfoOptions" />
+        <activity android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.InfoActivity" />
         <activity
-            android:name=".account.AccountActivity"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.account.AccountActivity"
             android:label="Edit Account"
-            android:parentActivityName=".account.Profile_Activity" />
-        <activity android:name=".HomeActivity" />
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.account.Profile_Activity" />
+        <activity android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.HomeActivity" />
         <activity
-            android:name=".calendar.CalendarClass"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.calendar.CalendarClass"
             android:label="General Calendar"
-            android:parentActivityName=".calendar.CalendarType" />
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.calendar.CalendarType" />
         <activity
-            android:name=".calendar.CalendarListViewEvent"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.calendar.CalendarListViewEvent"
             android:label="Event"
-            android:parentActivityName=".calendar.CalendarClass" />
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.calendar.CalendarClass" />
         <activity
-            android:name=".faculty.FacultyScienceInfoActivity"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.faculty.FacultyScienceInfoActivity"
             android:label="Faculty Of Sciences"
-            android:parentActivityName=".faculty.FacultyInfoActivity" />
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.faculty.FacultyInfoActivity" />
         <activity
-            android:name=".faculty.FacultyCommerceInfoActivity"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.faculty.FacultyCommerceInfoActivity"
             android:label="Faculty Of Commerce"
-            android:parentActivityName=".faculty.FacultyInfoActivity" />
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.faculty.FacultyInfoActivity" />
         <activity
-            android:name=".faculty.FacultyArtsInfoActivity"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.faculty.FacultyArtsInfoActivity"
             android:label="Faculty Of Arts"
-            android:parentActivityName=".faculty.FacultyInfoActivity" />
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.faculty.FacultyInfoActivity" />
         <activity
-            android:name=".information.HallInfoActivity"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.information.HallInfoActivity"
             android:label="Hall List"
-            android:parentActivityName=".information.InformationMenu" />
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.information.InformationMenu" />
         <activity
-            android:name=".information.HallViewActivity"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.information.HallViewActivity"
             android:label="Hall"
-            android:parentActivityName=".information.HallInfoActivity" />
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.information.HallInfoActivity" />
         <activity
-            android:name=".map.Map_Activity"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.map.Map_Activity"
             android:label="Map"
-            android:parentActivityName=".map.MapMenu" />
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.map.MapMenu" />
         <activity
-            android:name=".information.ClubInfoActivity"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.information.ClubInfoActivity"
             android:label="Club List"
-            android:parentActivityName=".information.InformationMenu" />
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.information.InformationMenu" />
         <activity
-            android:name=".information.ClubViewActivity"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.information.ClubViewActivity"
             android:label="Club"
-            android:parentActivityName=".information.ClubInfoActivity" />
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.information.ClubInfoActivity" />
         <activity
-            android:name=".information.OfficeInfoActivity"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.information.OfficeInfoActivity"
             android:label="Office List"
-            android:parentActivityName=".information.InformationMenu" />
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.information.InformationMenu" />
         <activity
-            android:name=".information.OfficeViewActivity"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.information.OfficeViewActivity"
             android:label="Office"
-            android:parentActivityName=".information.OfficeInfoActivity" />
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.information.OfficeInfoActivity" />
         <activity
-            android:name=".calendar.CalendarSpecificClass"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.calendar.CalendarSpecificClass"
             android:label="Specific Calendar"
-            android:parentActivityName=".calendar.CalendarType" />
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.calendar.CalendarType" />
         <activity
-            android:name=".committee.ImplementationCommitteActivity"
+            android:name="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.committee.ImplementationCommitteActivity"
             android:label="Implementation Committee"
-            android:parentActivityName=".committee.CommitteeMenu" />
+            android:parentActivityName="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.committee.CommitteeMenu" />
     </application>
 
 </manifest>

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".retreiveInfoActivity">
+    tools:context="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.retreiveInfoActivity">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"

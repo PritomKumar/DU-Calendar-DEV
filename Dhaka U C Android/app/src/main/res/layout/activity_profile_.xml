@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#000070"
-    tools:context=".account.Profile_Activity">
+    tools:context="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.account.Profile_Activity">
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="0dp"
         android:layout_height="0dp"

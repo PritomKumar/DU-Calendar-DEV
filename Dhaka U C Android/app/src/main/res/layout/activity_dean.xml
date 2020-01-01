@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".committee.DeanActivity">
+    tools:context="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.committee.DeanActivity">
 
     <ListView
         android:id="@+id/tableList"

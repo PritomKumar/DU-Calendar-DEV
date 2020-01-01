@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#fff"
-    tools:context=".account.Profile_Activity">
+    tools:context="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.account.Profile_Activity">
 
     <ScrollView
         android:layout_width="match_parent"

@@ -15,7 +15,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="0dp"
 
-        tools:context=".map.Map_Activity" />
+        tools:context="edu.dhaka_university_calendar.dhakauniversitycalendarandroid.map.Map_Activity" />
 
 
     <LinearLayout
