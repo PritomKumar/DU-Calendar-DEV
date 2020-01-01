@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/dhakauniversitycalendarandroid/account/award/AcheivementsActivity.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/dhakauniversitycalendarandroid/account/faculty/FacultyArtsInfoActivity.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/dhakauniversitycalendarandroid/account/faculty/FacultyBiologicalScienceInfoActivity.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/dhakauniversitycalendarandroid/account/faculty/FacultyCommerceInfoActivity.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/dhakauniversitycalendarandroid/account/faculty/FacultyEarthInfoActivity.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/dhakauniversitycalendarandroid/account/faculty/FacultyEngineeringInfoActivity.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/dhakauniversitycalendarandroid/account/faculty/FacultyFineArtsInfoActivity.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/dhakauniversitycalendarandroid/account/faculty/FacultyLawInfoActivity.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/dhakauniversitycalendarandroid/account/faculty/FacultyPharmacyInfoActivity.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/dhakauniversitycalendarandroid/account/faculty/FacultyScienceInfoActivity.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/dhakauniversitycalendarandroid/account/faculty/FacultySocialScienceInfoActivity.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/dhakauniversitycalendarandroid/account/information/ClubInfoActivity.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/dhakauniversitycalendarandroid/account/information/HallInfoActivity.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/dhakauniversitycalendarandroid/account/information/HeadOfDUInfoActivity.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/dhakauniversitycalendarandroid/account/information/InstituesInfoActivity.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/dhakauniversitycalendarandroid/account/information/OfficeInfoActivity.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/dhakauniversitycalendarandroid/account/map/ExcitingPlacesActivity.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/dhakauniversitycalendarandroid/award/AcheivementsActivity.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/dhakauniversitycalendarandroid/faculty/FacultyArtsInfoActivity.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/dhakauniversitycalendarandroid/faculty/FacultyBiologicalScienceInfoActivity.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/dhakauniversitycalendarandroid/faculty/FacultyCommerceInfoActivity.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/dhakauniversitycalendarandroid/faculty/FacultyEarthInfoActivity.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/dhakauniversitycalendarandroid/faculty/FacultyEngineeringInfoActivity.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/dhakauniversitycalendarandroid/faculty/FacultyFineArtsInfoActivity.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/dhakauniversitycalendarandroid/faculty/FacultyLawInfoActivity.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/dhakauniversitycalendarandroid/faculty/FacultyPharmacyInfoActivity.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/dhakauniversitycalendarandroid/faculty/FacultyScienceInfoActivity.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/dhakauniversitycalendarandroid/faculty/FacultySocialScienceInfoActivity.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/dhakauniversitycalendarandroid/information/ClubInfoActivity.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/dhakauniversitycalendarandroid/information/HallInfoActivity.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/dhakauniversitycalendarandroid/information/HeadOfDUInfoActivity.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/dhakauniversitycalendarandroid/information/InstituesInfoActivity.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/dhakauniversitycalendarandroid/information/OfficeInfoActivity.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/dhakauniversitycalendarandroid/map/ExcitingPlacesActivity.java" charset="windows-1252" />
+  </component>
+</project>

@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Dhaka University Calendar</string>
+
+    <string-array name="departments">
+        <item>iit, du</item>
+        <item>cse, du</item>
+        <item>genetics, du</item>
+        <item>eee, du</item>
+        <item>pharmacy, du</item>
+        <item>isrt, du</item>
+    </string-array>
+
+    <string-array name="Faculty">
+        <item>Faculty of Arts</item>
+        <item>Institutes</item>
+        <item>Faculty of Business Studies</item>
+        <item>Faculty of Biological Science</item>
+        <item>Faculty of Engineering and Technology</item>
+        <item>Faculty of Fine Arts</item>
+        <item>Faculty of Law</item>
+        <item>Faculty of Medicine</item>
+        <item>Faculty of Pharmacy</item>
+        <item>Faculty of Science</item>
+        <item>Faculty of Social Sciences</item>
+        <item>Faculty of Earth and Environmental Sciences</item>
+        <item>Faculty of Education</item>
+        <item>Faculty of Postgraduate Medical Sciences and Research</item>
+    </string-array>
+
+    <string-array name="Year">
+        <item>1st year</item>
+        <item>2nd year</item>
+        <item>3rd year</item>
+        <item>4th year</item>
+        <item>5th year</item>
+    </string-array>
+    <string name="title_activity_home2">Home2Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_acheivements_view">AcheivementsViewActivity</string>
+
+</resources>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".calendar.CalendarType">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/buttongeneral"
+                style="@style/Widget.MaterialComponents.Button.Icon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="0dp"
+                android:layout_weight="1"
+                android:translationZ="10dp"
+                android:stateListAnimator="@null"
+                android:autoSizeMaxTextSize="20sp"
+                android:autoSizeMinTextSize="8sp"
+                android:autoSizeStepGranularity="2sp"
+                android:autoSizeTextType="uniform"
+                android:backgroundTint="#FBC02D"
+                android:elevation="4dp"
+                android:insetLeft="0dp"
+                android:padding="4dp"
+                android:text="General Calendar"
+                android:textAllCaps="true"
+                android:textColor="#000"
+                app:cornerRadius="4dp"
+                app:elevation="10dp"
+                app:icon="@drawable/calendar"
+                app:iconGravity="start"
+                app:iconPadding="8dp"
+                app:iconTint="#222"
+                app:rippleColor="#c29000"
+                app:strokeColor="#c29000"
+                app:strokeWidth="4dp"
+                android:textAlignment="viewStart"
+                tools:ignore="RtlCompat"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/buttonpersonal"
+                style="@style/Widget.MaterialComponents.Button.Icon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="0dp"
+                android:layout_weight="1"
+                android:translationZ="10dp"
+                android:stateListAnimator="@null"
+                android:autoSizeMaxTextSize="20sp"
+                android:autoSizeMinTextSize="8sp"
+                android:autoSizeStepGranularity="2sp"
+                android:autoSizeTextType="uniform"
+                android:backgroundTint="#FBC02D"
+                android:elevation="10dp"
+                android:insetLeft="0dp"
+                android:padding="4dp"
+                android:text="Specific Calendar"
+                android:textColor="#000"
+                app:cornerRadius="4dp"
+                app:elevation="10dp"
+                app:icon="@drawable/calendar"
+                app:iconGravity="start"
+                app:iconPadding="8dp"
+                app:iconTint="#222"
+                app:rippleColor="#c29000"
+                app:strokeColor="#c29000"
+                app:strokeWidth="4dp"
+                android:textAlignment="viewStart"
+                tools:ignore="RtlCompat"/>
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/buttonSports"
+                style="@style/Widget.MaterialComponents.Button.Icon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="0dp"
+                android:layout_weight="1"
+                android:translationZ="10dp"
+                android:stateListAnimator="@null"
+                android:autoSizeMaxTextSize="20sp"
+                android:autoSizeMinTextSize="8sp"
+                android:autoSizeStepGranularity="2sp"
+                android:autoSizeTextType="uniform"
+                android:backgroundTint="#FBC02D"
+                android:elevation="10dp"
+                android:insetLeft="0dp"
+                android:padding="4dp"
+                android:text="Sports Calendar"
+                android:textColor="#000"
+                app:cornerRadius="4dp"
+                app:elevation="10dp"
+                app:icon="@drawable/calendar"
+                app:iconGravity="start"
+                app:iconPadding="8dp"
+                app:iconTint="#222"
+                app:rippleColor="#c29000"
+                app:strokeColor="#c29000"
+                app:strokeWidth="4dp"
+                android:textAlignment="viewStart"
+                tools:ignore="RtlCompat" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/clubsCalendarBtn"
+                style="@style/Widget.MaterialComponents.Button.Icon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="32dp"
+                android:layout_weight="1"
+                android:translationZ="10dp"
+                android:stateListAnimator="@null"
+                android:textAlignment="viewStart"
+                android:autoSizeMaxTextSize="20sp"
+                android:autoSizeMinTextSize="8sp"
+                android:autoSizeStepGranularity="2sp"
+                android:autoSizeTextType="uniform"
+                android:backgroundTint="#FBC02D"
+                android:elevation="10dp"
+                android:insetLeft="0dp"
+                android:padding="4dp"
+                android:text="Clubs Calendar"
+                android:textColor="#000"
+                app:cornerRadius="4dp"
+                app:elevation="10dp"
+                app:icon="@drawable/calendar"
+                app:iconGravity="start"
+                app:iconPadding="8dp"
+                app:iconTint="#222"
+                app:rippleColor="#c29000"
+                app:strokeColor="#c29000"
+                app:strokeWidth="4dp"
+                tools:ignore="RtlCompat" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".29" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".58" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".87" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

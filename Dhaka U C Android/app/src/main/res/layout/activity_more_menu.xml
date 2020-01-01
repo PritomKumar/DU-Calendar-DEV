@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".more.MoreMenuActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/affiliatedInstitutes"
+                style="@style/Widget.MaterialComponents.Button.Icon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="0dp"
+                android:layout_weight="1"
+                android:autoSizeMaxTextSize="20sp"
+                android:autoSizeMinTextSize="8sp"
+                android:autoSizeStepGranularity="2sp"
+                android:autoSizeTextType="uniform"
+                android:translationZ="10dp"
+                android:stateListAnimator="@null"
+                android:backgroundTint="#e040fb"
+                android:elevation="10dp"
+                android:padding="4dp"
+                android:text="Affiliated Institutes"
+                android:textAlignment="viewStart"
+                android:textColor="#fff"
+                app:cornerRadius="4dp"
+                app:icon="@drawable/other_24dp"
+                app:iconGravity="start"
+                app:iconPadding="16dp"
+                app:rippleColor="#aa00c7"
+                app:strokeColor="#aa00c7"
+                app:strokeWidth="4dp"
+                tools:ignore="RtlCompat" />
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/ProtoralRules"
+                style="@style/Widget.MaterialComponents.Button.Icon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="0dp"
+                android:layout_weight="1"
+                android:autoSizeMaxTextSize="20sp"
+                android:autoSizeMinTextSize="8sp"
+                android:autoSizeStepGranularity="2sp"
+                android:autoSizeTextType="uniform"
+                android:translationZ="10dp"
+                android:stateListAnimator="@null"
+                android:backgroundTint="#e040fb"
+                android:elevation="10dp"
+                android:padding="4dp"
+                android:text="Protorial Rules"
+                android:textAlignment="viewStart"
+                android:textColor="#fff"
+                app:cornerRadius="4dp"
+                app:icon="@drawable/other_24dp"
+                app:iconGravity="start"
+                app:iconPadding="16dp"
+                app:rippleColor="#aa00c7"
+                app:strokeColor="#aa00c7"
+                app:strokeWidth="4dp"
+                tools:ignore="RtlCompat" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/dacsu"
+                style="@style/Widget.MaterialComponents.Button.Icon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="32dp"
+                android:layout_weight="1"
+                android:autoSizeMaxTextSize="20sp"
+                android:autoSizeMinTextSize="8sp"
+                android:autoSizeStepGranularity="2sp"
+                android:autoSizeTextType="uniform"
+                android:translationZ="10dp"
+                android:stateListAnimator="@null"
+                android:backgroundTint="#e040fb"
+                android:elevation="10dp"
+                android:padding="4dp"
+                android:text="Ducsu"
+                android:textAlignment="viewStart"
+                android:textColor="#fff"
+                app:cornerRadius="4dp"
+                app:icon="@drawable/other_24dp"
+                app:iconGravity="start"
+                app:iconPadding="16dp"
+                app:rippleColor="#aa00c7"
+                app:strokeColor="#aa00c7"
+                app:strokeWidth="4dp"
+                tools:ignore="RtlCompat" />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

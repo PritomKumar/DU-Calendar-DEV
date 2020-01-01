@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <item android:id="@+id/profile_menu"
+        android:icon="@drawable/ic_face_white24dp"
+        android:title="Profile"
+        app:showAsAction= "always"
+        />
+    <item android:id="@+id/language"
+        android:title="Language"
+        app:showAsAction= "never"
+        >
+        <menu>
+            <item android:id="@+id/english"
+                android:title="English"
+                app:showAsAction= "collapseActionView"
+                >
+            </item>
+            <item android:id="@+id/bangla"
+                android:title="Bangla"
+                app:showAsAction= "collapseActionView"
+                >
+            </item>
+        </menu>
+    </item>
+    <item android:id="@+id/linkItem"
+        android:title="Download PDF"
+        app:showAsAction= "never"
+        />
+
+    <item android:id="@+id/logoutitem"
+        android:title="Logout"
+        app:showAsAction= "never"
+        />
+
+</menu>
