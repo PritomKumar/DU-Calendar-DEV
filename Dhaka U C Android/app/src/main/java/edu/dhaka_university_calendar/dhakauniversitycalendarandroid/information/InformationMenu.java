@@ -3,11 +3,14 @@ package edu.dhaka_university_calendar.dhakauniversitycalendarandroid.information
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import edu.dhaka_university_calendar.dhakauniversitycalendarandroid.Api;
+import edu.dhaka_university_calendar.dhakauniversitycalendarandroid.ServerIPLoad;
+import edu.dhaka_university_calendar.dhakauniversitycalendarandroid.ServerLoad;
 import edu.dhaka_university_calendar.dhakauniversitycalendarandroid.faculty.Faculty;
 import edu.dhaka_university_calendar.dhakauniversitycalendarandroid.faculty.FacultyMenu;
 
@@ -92,7 +95,6 @@ public class InformationMenu extends AppCompatActivity {
         historyBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
 
                 Retrofit retrofit =  new Retrofit.Builder()
                         .baseUrl(Api.baseURL)

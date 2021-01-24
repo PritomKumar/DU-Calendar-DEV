@@ -3,17 +3,32 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 28
     buildToolsVersion "29.0.2"
+
+    signingConfigs {
+        key {
+            keyAlias 'key0'
+            keyPassword 'Dhak@calendar'
+            storeFile file('G:\\DUC_Key.jks')
+            storePassword 'Dhak@calendar'
+        }
+    }
+
     defaultConfig {
         applicationId "edu.dhaka_university_calendar.dhakauniversitycalendarandroid"
         minSdkVersion 21
         targetSdkVersion 28
-        versionCode 1
-        versionName "1.1.2"
+        versionCode 3
+        versionName "1.2.3"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
+        debug {
+            signingConfig signingConfigs.key
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
         release {
-            minifyEnabled false
+            minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
             applicationVariants.all { variant ->
                 variant.outputs.all { output ->

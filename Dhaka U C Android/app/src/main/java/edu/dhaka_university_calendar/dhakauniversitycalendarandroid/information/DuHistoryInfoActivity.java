@@ -2,11 +2,14 @@ package edu.dhaka_university_calendar.dhakauniversitycalendarandroid.information
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import edu.dhaka_university_calendar.dhakauniversitycalendarandroid.Api;
+import edu.dhaka_university_calendar.dhakauniversitycalendarandroid.ServerIPLoad;
 import edu.dhaka_university_calendar.dhakauniversitycalendarandroid.faculty.Faculty;
 
 import edu.dhaka_university_calendar.dhakauniversitycalendarandroid.R;
@@ -67,7 +70,7 @@ public class DuHistoryInfoActivity extends AppCompatActivity {
 
             @Override
             public void onFailure(Call<List<Faculty>> call, Throwable t) {
-              //  Toast.makeText(DuHistoryInfoActivity.this, t.getMessage() , Toast.LENGTH_SHORT).show();
+                Toast.makeText(DuHistoryInfoActivity.this, t.getMessage() , Toast.LENGTH_SHORT).show();
             }
         });
     }

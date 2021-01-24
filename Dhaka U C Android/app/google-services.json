@@ -8,43 +8,6 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1044358925928:android:dba8ec53cd4d5785c435dd",
-        "android_client_info": {
-          "package_name": "com.example.dhakauniversitycalendarandroid"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "1044358925928-tnd3ev3otpr64hd6nt3ptk3mjaau9vj1.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.dhakauniversitycalendarandroid",
-            "certificate_hash": "c790d22b08f7c22f4fcfe4a9586bc4e746cd8c68"
-          }
-        },
-        {
-          "client_id": "1044358925928-5b7enq34u5e5tj66vg6mtm41scf1fp21.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyDxesnZBJn7Kw0W8gDFXOIZ-WLGgK58lpA"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "1044358925928-5b7enq34u5e5tj66vg6mtm41scf1fp21.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
         "mobilesdk_app_id": "1:1044358925928:android:ca564bcdb8536738c435dd",
         "android_client_info": {
           "package_name": "edu.dhaka_university_calendar.dhakauniversitycalendarandroid"
@@ -52,7 +15,23 @@
       },
       "oauth_client": [
         {
-          "client_id": "1044358925928-nhs9aea74gqmmhkt7fughhda7i4dcavs.apps.googleusercontent.com",
+          "client_id": "1044358925928-c3rdj2r76iepf81c0q3v38hv7lo01l7h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.dhaka_university_calendar.dhakauniversitycalendarandroid",
+            "certificate_hash": "1bae6dcd5aa1b73350b8b1514e83f94c640700ec"
+          }
+        },
+        {
+          "client_id": "1044358925928-37dk69fl5lqumidqotbf9n4jfnkknnfh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.dhaka_university_calendar.dhakauniversitycalendarandroid",
+            "certificate_hash": "df3a768d97e0f193ba68761c36ae58ed86762225"
+          }
+        },
+        {
+          "client_id": "1044358925928-kq5nkqmgk2ab94gh84pleth56i2umrvu.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "edu.dhaka_university_calendar.dhakauniversitycalendarandroid",

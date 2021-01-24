@@ -32,9 +32,14 @@ import retrofit2.Call;
 import retrofit2.http.GET;
 import retrofit2.http.Query;
 
+
 public interface Api {
 
-    String baseURL = "http://103.28.121.45/DUC/Web Portal/android/";
+    ServerIPLoad serverLoad = new ServerIPLoad();
+
+    //String baseURL = "http://" + serverLoad.loadServerIP() + "/miran/DUC/web/android/";
+    String baseURL = "http://18.185.136.57/miran/DUC/web/android/";
+
 
     @GET("headOfDU.php")
     Call<List<HeadOfDU>> getHeadOfDU();
