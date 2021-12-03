@@ -49,7 +49,7 @@ The calendar committee of Dhaka University publishes a calendar for the very fir
 
 ## Project Demo
 
-### Mobile Application Screenshots
+## Mobile Application Screenshots
 
 <table style="width:100%">
   <tr>
@@ -96,7 +96,7 @@ The calendar committee of Dhaka University publishes a calendar for the very fir
 
 [Back To The Top](#DU-Calendar-DEV)
 
-### Web Portal Screenshots
+## Web Portal Screenshots
 <table style="width:100%">
   <tr>
     <th>Authentication for Admins.</th>
@@ -111,6 +111,18 @@ The calendar committee of Dhaka University publishes a calendar for the very fir
     <td><img src="Documentation/Demo/web2.jpg"/></td>
   </tr>
 </table>
+
+
+[Back To The Top](#DU-Calendar-DEV)
+
+---
+
+### Usage
+
+*For detailed user manual, please refer to the [Documentation](https://github.com/PritomKumar/DU-Calendar-DEV/blob/master/Documentation/Reports/User%20Manual.pdf)*
+
+### Main Project Files
+*For detailed project code overview go inside the "Dhaka U C Android" folder or click [here](https://github.com/PritomKumar/DU-Calendar-DEV/tree/master/Dhaka U C Android/).*
 
 
 [Back To The Top](#DU-Calendar-DEV)
