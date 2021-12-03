@@ -51,11 +51,6 @@ The calendar committee of Dhaka University publishes a calendar for the very fir
 
 
 
-#### API Reference
-
-```html
-    <p>dummy code</p>
-```
 [Back To The Top](#DU-Calendar-DEV)
 
 ---
