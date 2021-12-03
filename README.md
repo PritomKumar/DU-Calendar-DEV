@@ -21,10 +21,22 @@ You're sections headers will be used to reference location of destination.
 
 The calendar committee of Dhaka University publishes a calendar for the very first year students of the university to be familiar with the University campus and its glorious history every year. This project takes the task of creating an android application for freshmen and web portal for admins that represents Dhaka University Calendar.
 
-#### Technologies
+### Technologies
 
-- Technology 1
-- Technology 2
+#### Android Technology
+
+- JAVA
+- Retrofit
+- Design Patters
+- Android Studio
+
+#### Web Technology
+
+- Laravel
+- PHP
+- Server Communication
+- Rest API
+- Postman
 
 [Back To The Top](#DU-Calendar-DEV)
 
