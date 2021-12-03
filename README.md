@@ -13,7 +13,7 @@
 - [Project Demo](#project-demo)
 - [Usage](#usage)
 - [Main Project Files](#main-project-files)
-- [License](#licensem
+- [License](#license)
 - [Author Info](#author-info)
 
 ---
