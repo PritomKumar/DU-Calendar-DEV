@@ -50,20 +50,44 @@ The calendar committee of Dhaka University publishes a calendar for the very fir
 
 <table style="width:100%">
   <tr>
-    <th>Example 1</th>
-    <th>Example 2</th>
+    <th>No password, No hassle!</th>
+    <th>Get everything on a touch.</th>
   </tr>
   <tr>
     <td><img src="Documentation/Demo/1.png"/></td>
     <td><img src="Documentation/Demo/2.png"/></td>
   </tr>
   <tr>
-    <th>Example 3</th>
-    <th>Example 4</th>
+    <th>Automatically create a profile!</th>
+    <th>Easy to edit!</th>
   </tr>
   <tr>
-    <td><img src="Documentation/Demo/3.png"/></td>
     <td><img src="Documentation/Demo/4.png"/></td>
+    <td><img src="Documentation/Demo/5.png"/></td>
+  </tr>
+  <tr>
+    <th>Lots of information here!</th>
+    <th>Let's know the University Origin!</th>
+  </tr>
+  <tr>
+    <td><img src="Documentation/Demo/13.png"/></td>
+    <td><img src="Documentation/Demo/14.png"/></td>
+  </tr>
+  <tr>
+    <th>Let's be familiar with the authority.</th>
+    <th>Get location of all the departments and facilities.</th>
+  </tr>
+  <tr>
+    <td><img src="Documentation/Demo/25.png"/></td>
+    <td><img src="Documentation/Demo/23.png"/></td>
+  </tr>
+  <tr>
+    <th>Never miss the bus!</th>
+    <th>Never miss an event!</th>
+  </tr>
+  <tr>
+    <td><img src="Documentation/Demo/27.png"/></td>
+    <td><img src="Documentation/Demo/7.png"/></td>
   </tr>
 </table>
 
