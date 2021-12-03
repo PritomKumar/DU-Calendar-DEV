@@ -10,8 +10,8 @@
 You're sections headers will be used to reference location of destination.
 
 - [Description](#description)
+- [Technologies](#technologies)
 - [Project Demo](#project-demo)
-- [References](#references)
 - [License](#license)
 - [Author Info](#author-info)
 
@@ -21,7 +21,9 @@ You're sections headers will be used to reference location of destination.
 
 The calendar committee of Dhaka University publishes a calendar for the very first year students of the university to be familiar with the University campus and its glorious history every year. This project takes the task of creating an android application for freshmen and web portal for admins that represents Dhaka University Calendar.
 
-### Technologies
+---
+
+## Technologies
 
 #### Android Technology
 
@@ -112,11 +114,6 @@ The calendar committee of Dhaka University publishes a calendar for the very fir
 </table>
 
 
-[Back To The Top](#DU-Calendar-DEV)
-
----
-
-## References
 [Back To The Top](#DU-Calendar-DEV)
 
 ---
