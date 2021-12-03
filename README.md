@@ -48,7 +48,24 @@ The calendar committee of Dhaka University publishes a calendar for the very fir
 
 #### Project Screenshots
 
-
+<table style="width:100%">
+  <tr>
+    <th>Example 1</th>
+    <th>Example 2</th>
+  </tr>
+  <tr>
+    <td><img src="Documentation/Demo/1.png"/></td>
+    <td><img src="Documentation/Demo/2.png"/></td>
+  </tr>
+  <tr>
+    <th>Example 3</th>
+    <th>Example 4</th>
+  </tr>
+  <tr>
+    <td><img src="Documentation/Demo/3.png"/></td>
+    <td><img src="Documentation/Demo/4.png"/></td>
+  </tr>
+</table>
 
 
 [Back To The Top](#DU-Calendar-DEV)
