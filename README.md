@@ -101,13 +101,13 @@ The calendar committee of Dhaka University publishes a calendar for the very fir
     <th>Authentication for Admins.</th>
   </tr>
   <tr>
-    <td><img src="Documentation/Demo/web1.png"/></td>
+    <td><img src="Documentation/Demo/web1.jpg"/></td>
   </tr>
    <tr>
     <th>Information create, update, delete, insert page.</th>
   </tr>
   <tr>
-    <td><img src="Documentation/Demo/web2.png"/></td>
+    <td><img src="Documentation/Demo/web2.jpg"/></td>
   </tr>
 </table>
 
