@@ -28,6 +28,8 @@ The calendar committee of Dhaka University publishes a calendar for the very fir
 - JAVA
 - Retrofit
 - Design Patters
+- Firebase Realtime Database
+- Google Auth
 - Android Studio
 
 #### Web Technology
@@ -66,7 +68,7 @@ The calendar committee of Dhaka University publishes a calendar for the very fir
 
 MIT License
 
-Copyright (c) [2021]
+Copyright (c) [2021] [Pritom Kumar Das]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -92,7 +94,7 @@ SOFTWARE.
 
 ## Author Info
 
-- Twitter - [@jamesqquick](https://twitter.com/jamesqquick)
-- Website - [James Q Quick](https://jamesqquick.com)
+- Linkedin - [Linked In](https://www.linkedin.com/in/pritomkumar/fr)
+- Website - [Pritom Kumar Das](https://sites.google.com/view/pritom-kumar-das/)
 
 [Back To The Top](#DU-Calendar-DEV)
