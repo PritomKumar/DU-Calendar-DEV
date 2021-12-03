@@ -37,6 +37,8 @@ The calendar committee of Dhaka University publishes a calendar for the very fir
 - Laravel
 - PHP
 - Server Communication
+- Putty
+- Xampp
 - Rest API
 - Postman
 
@@ -46,7 +48,7 @@ The calendar committee of Dhaka University publishes a calendar for the very fir
 
 ## Project Demo
 
-#### Project Screenshots
+### Mobile Application Screenshots
 
 <table style="width:100%">
   <tr>
@@ -88,6 +90,18 @@ The calendar committee of Dhaka University publishes a calendar for the very fir
   <tr>
     <td><img src="Documentation/Demo/27.png"/></td>
     <td><img src="Documentation/Demo/7.png"/></td>
+  </tr>
+</table>
+
+[Back To The Top](#DU-Calendar-DEV)
+
+### Web Portal Screenshots
+<table style="width:100%">
+  <tr>
+    <th>No password, No hassle!</th>
+  </tr>
+  <tr>
+    <td><img src="Documentation/Demo/1.png"/></td>
   </tr>
 </table>
 
