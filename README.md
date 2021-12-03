@@ -20,7 +20,7 @@
 
 ## Description
 
-The calendar committee of Dhaka University publishes a calendar for the very first year students of the university to be familiar with the University campus and its glorious history every year. This project takes the task of creating an android application for freshmen and web portal for admins that represents Dhaka University Calendar.
+The calendar committee of Dhaka University publishes a calendar for the very first year students of the university to be familiar with the University campus and its glorious history every year. This project takes the task of creating an android application for freshmen and web portal for admins that represent Dhaka University Calendar.
 
 ---
 
