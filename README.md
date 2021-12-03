@@ -134,7 +134,7 @@ The calendar committee of Dhaka University publishes a calendar for the very fir
 ## License
 
 ```
-    Copyright (C) [Pritom Kumar Das]
+    Copyright (C) Pritom Kumar Das
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
