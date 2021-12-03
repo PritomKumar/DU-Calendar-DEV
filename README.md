@@ -11,7 +11,9 @@
 - [Description](#description)
 - [Technologies](#technologies)
 - [Project Demo](#project-demo)
-- [License](#license)
+- [Usage](#usage)
+- [Main Project Files](#main-project-files)
+- [License](#licensem
 - [Author Info](#author-info)
 
 ---
@@ -117,11 +119,11 @@ The calendar committee of Dhaka University publishes a calendar for the very fir
 
 ---
 
-### Usage
+## Usage
 
 *For detailed user manual, please refer to the [Documentation](https://github.com/PritomKumar/DU-Calendar-DEV/blob/master/Documentation/Reports/User%20Manual.pdf)*
 
-### Main Project Files
+## Main Project Files
 *For detailed project code overview go inside the "Dhaka U C Android" folder or click [here](https://github.com/PritomKumar/DU-Calendar-DEV/tree/master/Dhaka U C Android/).*
 
 
