@@ -98,10 +98,16 @@ The calendar committee of Dhaka University publishes a calendar for the very fir
 ### Web Portal Screenshots
 <table style="width:100%">
   <tr>
-    <th>No password, No hassle!</th>
+    <th>Authentication for Admins.</th>
   </tr>
   <tr>
-    <td><img src="Documentation/Demo/1.png"/></td>
+    <td><img src="Documentation/Demo/web1.png"/></td>
+  </tr>
+   <tr>
+    <th>Information create, update, delete, insert page.</th>
+  </tr>
+  <tr>
+    <td><img src="Documentation/Demo/web2.png"/></td>
   </tr>
 </table>
 
