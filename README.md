@@ -11,7 +11,7 @@
 You're sections headers will be used to reference location of destination.
 
 - [Description](#description)
-- [How To Use](#how-to-use)
+- [Project Demo](#project-demo)
 - [References](#references)
 - [License](#license)
 - [Author Info](#author-info)
@@ -20,7 +20,7 @@ You're sections headers will be used to reference location of destination.
 
 ## Description
 
-Creating ReadMe's for your Github repository can be tedious.  I hope this template can save you time and effort as well as provide you with some consistency across your projects.
+The calendar committee of Dhaka University publishes a calendar for the very first year students of the university to be familiar with the University campus and its glorious history every year. This project takes the task of creating an android application for freshmen and web portal for admins that represents Dhaka University Calendar.
 
 #### Technologies
 
@@ -31,7 +31,7 @@ Creating ReadMe's for your Github repository can be tedious.  I hope this templa
 
 ---
 
-## How To Use
+## Project Demo
 
 #### Installation
 
@@ -55,7 +55,7 @@ Creating ReadMe's for your Github repository can be tedious.  I hope this templa
 
 MIT License
 
-Copyright (c) [2017] [James Q Quick]
+Copyright (c) [2021]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
